@@ -1,0 +1,76 @@
+.ShopCard {
+    width: 32%;
+}
+
+.card-header {
+    text-align: center;
+    border-bottom: none;
+    background: none;
+}
+
+.card-title {
+    font-size: 26px;
+}
+
+.card-price {
+    font-size: 22px;
+    color: red;
+}
+
+.card-add-button {
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: none;
+    background: none;
+}
+
+/* view-module */
+
+
+.cards-view_module .ShopCard {
+    width: 32%;
+}
+
+.cards-view_list .ShopCard {
+    background-color: rgba(0,0,0,.03);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards-view_list .ShopCard:nth-child(n+2) {
+    margin-top: 20px;
+}
+
+.cards-view_list .card-title {
+    margin: 0;
+}
+
+.cards-view_list .card-color {
+    margin-left: 10px;
+    font-size: 26px;
+}
+
+.cards-view_list .card-header {
+    display: flex;
+    align-items: center;
+    order: 2;
+}
+
+.cards-view_list .card-img {
+    order: 1;
+    align-self: stretch;
+    width: 85px;
+}
+
+.cards-view_list .card-footer {
+    width: 30%;
+    order: 3;
+}

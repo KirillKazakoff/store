@@ -1,0 +1,16 @@
+.cards-view_module {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cards-view_list {
+    display: block;
+}
+
+.CardsView {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
